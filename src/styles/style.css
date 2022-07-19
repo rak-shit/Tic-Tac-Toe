@@ -1,0 +1,14 @@
+.cell-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 200px;
+    width: 200px;
+    margin: 10rem auto;
+}
+
+.cell {
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 2px;
+    height: 60px;
+}
